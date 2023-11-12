@@ -14,8 +14,11 @@
 x64/
 build/
 bld/
-[Bb]in/
 [Oo]bj/
+
+#Bin folder
+[Bb]in/*.dir
+[Bb]in/.vs
 
 # CMake
 CMakeCache.txt

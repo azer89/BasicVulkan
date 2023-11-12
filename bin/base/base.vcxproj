@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{086E2CB6-90E8-36A1-AAE3-48754F07ED32}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>base</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\azer\workspace\BasicVulkan\bin\base\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">base.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">base</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\azer\workspace\BasicVulkan\bin\base\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">base.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">base</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR="C:/Users/azer/workspace/BasicVulkan/assets/";VK_EXAMPLE_SHADERS_DIR="C:/Users/azer/workspace/BasicVulkan/shaders/"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR=\"C:/Users/azer/workspace/BasicVulkan/assets/\";VK_EXAMPLE_SHADERS_DIR=\"C:/Users/azer/workspace/BasicVulkan/shaders/\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+    <CustomBuildStep>
+      <Message />
+    </CustomBuildStep>
+    <CustomBuild>
+      <Message />
+    </CustomBuild>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;NDEBUG;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR="C:/Users/azer/workspace/BasicVulkan/assets/";VK_EXAMPLE_SHADERS_DIR="C:/Users/azer/workspace/BasicVulkan/shaders/"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;NDEBUG;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR=\"C:/Users/azer/workspace/BasicVulkan/assets/\";VK_EXAMPLE_SHADERS_DIR=\"C:/Users/azer/workspace/BasicVulkan/shaders/\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+    <CustomBuildStep>
+      <Message />
+    </CustomBuildStep>
+    <CustomBuild>
+      <Message />
+    </CustomBuild>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\imgui\imgui.cpp" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\imgui\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\imgui\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\imgui\imgui_widgets.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\CommandLineParser.hpp" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanAndroid.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanAndroid.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanBuffer.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanBuffer.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanDebug.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanDebug.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanDevice.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanDevice.h" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanFrameBuffer.hpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanInitializers.hpp" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanRaytracingSample.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanRaytracingSample.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanSwapChain.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanSwapChain.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanTexture.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanTexture.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanTools.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanTools.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanUIOverlay.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanUIOverlay.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanglTFModel.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanglTFModel.h" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\benchmark.hpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\camera.hpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\frustum.hpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\keycodes.hpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\threadpool.hpp" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\vulkanexamplebase.cpp" />
+    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\vulkanexamplebase.h" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\texture.c" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\hashlist.c" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\checkheader.c" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\swap.c" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\memstream.c" />
+    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\filestream.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\azer\workspace\BasicVulkan\bin\ZERO_CHECK.vcxproj">
+      <Project>{0960799F-7A0D-3D5E-8038-FB293956C28C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

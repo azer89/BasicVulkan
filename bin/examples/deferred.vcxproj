@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C563B091-4544-3E55-9904-03E2A3E45E42}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>deferred</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/azer/workspace/BasicVulkan/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\azer\workspace\BasicVulkan\bin\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">deferred.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">deferred</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/azer/workspace/BasicVulkan/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\azer\workspace\BasicVulkan\bin\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">deferred.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">deferred</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR="C:/Users/azer/workspace/BasicVulkan/assets/";VK_EXAMPLE_SHADERS_DIR="C:/Users/azer/workspace/BasicVulkan/shaders/";CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR=\"C:/Users/azer/workspace/BasicVulkan/assets/\";VK_EXAMPLE_SHADERS_DIR=\"C:/Users/azer/workspace/BasicVulkan/shaders/\";CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\base\Debug\base.lib;C:\VulkanSDK\1.3.224.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/azer/workspace/BasicVulkan/bin/examples/Debug/deferred.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/azer/workspace/BasicVulkan/bin/bin/Debug/deferred.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;NDEBUG;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR="C:/Users/azer/workspace/BasicVulkan/assets/";VK_EXAMPLE_SHADERS_DIR="C:/Users/azer/workspace/BasicVulkan/shaders/";CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;VK_USE_PLATFORM_WIN32_KHR;NOMINMAX;_USE_MATH_DEFINES;NDEBUG;_CRT_SECURE_NO_WARNINGS;VK_EXAMPLE_ASSETS_DIR=\"C:/Users/azer/workspace/BasicVulkan/assets/\";VK_EXAMPLE_SHADERS_DIR=\"C:/Users/azer/workspace/BasicVulkan/shaders/\";CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\azer\workspace\BasicVulkan\external;C:\Users\azer\workspace\BasicVulkan\external\glm;C:\Users\azer\workspace\BasicVulkan\external\gli;C:\Users\azer\workspace\BasicVulkan\external\imgui;C:\Users\azer\workspace\BasicVulkan\external\tinygltf;C:\Users\azer\workspace\BasicVulkan\external\ktx\include;C:\Users\azer\workspace\BasicVulkan\external\ktx\other_include;C:\Users\azer\workspace\BasicVulkan\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\base\Release\base.lib;C:\VulkanSDK\1.3.224.1\Lib\vulkan-1.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/azer/workspace/BasicVulkan/bin/examples/Release/deferred.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/azer/workspace/BasicVulkan/bin/bin/Release/deferred.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\glsl\deferred\deferred.frag">
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\glsl\deferred\deferred.vert">
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\glsl\deferred\mrt.frag">
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\glsl\deferred\mrt.vert">
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\hlsl\deferred\deferred.frag">
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\hlsl\deferred\deferred.vert">
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\hlsl\deferred\mrt.frag">
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\hlsl\deferred\mrt.vert">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\azer\workspace\BasicVulkan\bin\ZERO_CHECK.vcxproj">
+      <Project>{0960799F-7A0D-3D5E-8038-FB293956C28C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\azer\workspace\BasicVulkan\bin\base\base.vcxproj">
+      <Project>{086E2CB6-90E8-36A1-AAE3-48754F07ED32}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\deferred\deferred.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

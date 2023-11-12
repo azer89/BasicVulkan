@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\glsl\triangle\triangle.frag">
+      <Filter>Shaders\GLSL</Filter>
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\glsl\triangle\triangle.vert">
+      <Filter>Shaders\GLSL</Filter>
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\hlsl\triangle\triangle.frag">
+      <Filter>Shaders\HLSL</Filter>
+    </None>
+    <None Include="C:\Users\azer\workspace\BasicVulkan\shaders\hlsl\triangle\triangle.vert">
+      <Filter>Shaders\HLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{137F8EB8-167E-3E3A-A617-4DCE62150D2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GLSL">
+      <UniqueIdentifier>{4684580B-2E87-3F52-B9A9-FAE5668BFB41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\HLSL">
+      <UniqueIdentifier>{F7A1BF0D-6166-3CBD-BA98-C676DEE686EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B630E598-78BF-3F50-AAC6-51ADED817133}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\triangle\triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
