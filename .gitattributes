@@ -65,5 +65,3 @@
 # Exclude dirs from github language statics
 data/* linguist-vendored=true
 external/* linguist-vendored=true
-
-Models/Sponza/* filter=lfs diff=lfs merge=lfs -text
