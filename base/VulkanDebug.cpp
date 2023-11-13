@@ -56,20 +56,12 @@ namespace vks
 			std::stringstream debugMessage;
 			debugMessage << prefix << "[" << pCallbackData->messageIdNumber << "][" << pCallbackData->pMessageIdName << "] : " << pCallbackData->pMessage;
 
-#if defined(__ANDROID__)
-			if (messageSeverity >= VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT) {
-				LOGE("%s", debugMessage.str().c_str());
-			} else {
-				LOGD("%s", debugMessage.str().c_str());
-			}
-#else
 			if (messageSeverity >= VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT) {
 				std::cerr << debugMessage.str() << "\n\n";
 			} else {
 				std::cout << debugMessage.str() << "\n\n";
 			}
 			fflush(stdout);
-#endif
 
 
 			// The return value of this callback controls whether the Vulkan call that caused the validation message will be aborted or not

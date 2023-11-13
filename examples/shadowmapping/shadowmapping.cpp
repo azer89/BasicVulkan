@@ -15,11 +15,7 @@
 #define DEPTH_FORMAT VK_FORMAT_D16_UNORM
 
 // Shadowmap properties
-#if defined(__ANDROID__)
-#define SHADOWMAP_DIM 1024
-#else
 #define SHADOWMAP_DIM 2048
-#endif
 #define DEFAULT_SHADOWMAP_FILTER VK_FILTER_LINEAR
 
 class VulkanExample : public VulkanExampleBase
