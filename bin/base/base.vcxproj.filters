@@ -31,9 +31,6 @@
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\texture.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanAndroid.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanBuffer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -76,9 +73,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanBuffer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanAndroid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanDebug.h">

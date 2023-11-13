@@ -136,8 +136,6 @@
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\imgui\imgui_draw.cpp" />
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\imgui\imgui_widgets.cpp" />
     <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\CommandLineParser.hpp" />
-    <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanAndroid.cpp" />
-    <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanAndroid.h" />
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanBuffer.cpp" />
     <ClInclude Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanBuffer.h" />
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\base\VulkanDebug.cpp" />
