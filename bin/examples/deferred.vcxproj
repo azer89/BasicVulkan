@@ -163,18 +163,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\azer\workspace\BasicVulkan\bin\ZERO_CHECK.vcxproj">
-      <Project>{0960799F-7A0D-3D5E-8038-FB293956C28C}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-    <ProjectReference Include="C:\Users\azer\workspace\BasicVulkan\bin\base\base.vcxproj">
-      <Project>{086E2CB6-90E8-36A1-AAE3-48754F07ED32}</Project>
-      <Name>base</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\examples\deferred\deferred.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

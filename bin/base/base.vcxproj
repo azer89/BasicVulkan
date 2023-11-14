@@ -170,14 +170,6 @@
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\memstream.c" />
     <ClCompile Include="C:\Users\azer\workspace\BasicVulkan\external\ktx\lib\filestream.c" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:\Users\azer\workspace\BasicVulkan\bin\ZERO_CHECK.vcxproj">
-      <Project>{0960799F-7A0D-3D5E-8038-FB293956C28C}</Project>
-      <Name>ZERO_CHECK</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
